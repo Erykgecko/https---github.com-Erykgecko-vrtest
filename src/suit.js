@@ -17,7 +17,7 @@ function sanitizeQuatInPlace(q) {
   if (Math.abs(q.w) <= 1e-12) q.set(0, 0, 0, 1);
   return q.normalize();
 }
-
+ //test
 export class SuitRig {
   constructor(rig) {
     this.rig = rig;
